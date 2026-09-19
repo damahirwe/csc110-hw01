@@ -51,12 +51,12 @@ def main():
     b=7
     c=-1
     result1 = (3*x-9*y)/(2*a*(b-c))
-    print( "part 1: x =", x)
-    print( "part 1: y=", y)
-    print( "part 1: a=", a)
-    print( "part 1: b=", b)
-    print( "part 1: c=", c)
-    print( "part 1: result1=", result1)
+    print( "Part 1: x = 27")
+    print( "Part 1: y = 1")
+    print( "Part 1: a = 1.5")
+    print( "Part 1: b = 7")
+    print( "Part 1: c = -1")
+    print( "Part 1: result =", result1)
     # End of Part 1 ----------------------
 
 
@@ -66,9 +66,9 @@ def main():
     x=5
     y=-3
     result2 = x**2 * y**4
-    print( "part 2: x=", x)
-    print( "part 2: y=", y)
-    print( "part 2: result=", result2)
+    print( "Part 2: x = 5", x)
+    print( "Part 2: y = -3", y)
+    print( "Part 2: result =", result2)
     # End of Part 2 ----------------------
 
 
@@ -79,9 +79,9 @@ def main():
     a=100
     b=13
     result3= int (a/b)
-    print( "part 3:a=", a)
-    print( "part 3; b=", b)
-    print( "part 3; result=", result3)
+    print( "Part 3: a = 100")
+    print( "Part 3: b = 13")
+    print( "Part 3: result =", result3)
     # End of Part 3 ----------------------
 
 
@@ -89,7 +89,7 @@ def main():
     # =============================================
     # Your code for part 4 under this line and before the print statements
     result4= a % b
-    print("part 4: result =", result4)
+    print("Part 4: result =", result4)
     # End of Part 4 ----------------------
 
 if __name__ == "__main__":
