@@ -45,7 +45,18 @@ def main():
     # Part 1: Basic Operations
     # =============================================
     # Your code for part 1 under this line and before the print statements
-
+    x=27
+    y=1
+    a=1.5
+    b=7
+    c=-1
+    result1 = (3*x-9*y)/(2*a*(b-c))
+    print( "part 1: x =", x)
+    print( "part 1: y=", y)
+    print( "part 1: a=", a)
+    print( "part 1: b=", b)
+    print( "part 1: c=", c)
+    print( "part 1: result1=", result1)
     # End of Part 1 ----------------------
 
 
