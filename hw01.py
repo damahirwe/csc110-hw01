@@ -63,7 +63,12 @@ def main():
     # Part 2: Power
     # =============================================
     # Your code for part 2 under this line and before the print statements
-
+    x=5
+    y=-3
+    result2 = x**2 * y**4
+    print( "part 2: x=", x)
+    print( "part 2: y=", y)
+    print( "part 2: result=", result2)
     # End of Part 2 ----------------------
 
 
@@ -71,14 +76,20 @@ def main():
     # Part 3: Integer divide
     # =============================================
     # Your code for part 3 under this line and before the print statements
-
+    a=100
+    b=13
+    result3= int (a/b)
+    print( "part 3:a=", a)
+    print( "part 3; b=", b)
+    print( "part 3; result=", result3)
     # End of Part 3 ----------------------
 
 
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
-
+    result4= a % b
+    print("part 4: result =", result4)
     # End of Part 4 ----------------------
 
 if __name__ == "__main__":
