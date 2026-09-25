@@ -1,7 +1,7 @@
 # ------------------------------------------------------
-#        Name: (put your name here)
-#       Peers: (add any collaborators)
-#  References: (anything you checked to solve this)
+#        Name: (Deborah Amahirwe)
+#       Peers: (Paw Poe)
+#  References: (Google, README DOC)
 # ------------------------------------------------------
 
 
@@ -41,7 +41,6 @@ def main():
     # End of Setup code ---------------------------
 
 
-
     # Part 1: Basic Operations
     # =============================================
     # Your code for part 1 under this line and before the print statements
@@ -50,7 +49,8 @@ def main():
     a=1.5
     b=7
     c=-1
-    result1 = (3*x-9*y)/(2*a*(b-c))
+    # Calculate the given expression using the assigned values
+    result1 = int(3*x-9*y)/(2*a*(b-c))
     print( "Part 1: x = 27")
     print( "Part 1: y = 1")
     print( "Part 1: a = 1.5")
@@ -65,9 +65,10 @@ def main():
     # Your code for part 2 under this line and before the print statements
     x=5
     y=-3
+    # Calculate x squared multiplied by y to the fourth power
     result2 = x**2 * y**4
-    print( "Part 2: x = 5", x)
-    print( "Part 2: y = -3", y)
+    print( "Part 2: x = 5")
+    print( "Part 2: y = -3")
     print( "Part 2: result =", result2)
     # End of Part 2 ----------------------
 
@@ -78,6 +79,7 @@ def main():
     # Your code for part 3 under this line and before the print statements
     a=100
     b=13
+    #divide a and b and keep the integer part of the result
     result3= int (a/b)
     print( "Part 3: a = 100")
     print( "Part 3: b = 13")
@@ -88,6 +90,8 @@ def main():
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
+    
+    # Find the remainder when a is divided by b
     result4= a % b
     print("Part 4: result =", result4)
     # End of Part 4 ----------------------
